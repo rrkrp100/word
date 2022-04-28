@@ -1,3 +1,6 @@
-<div>
-  This is the app component
+<div class="app-container">
+  <div [ngClass]="appClasses">
+    <app-contact-side class="contact-side"></app-contact-side>
+    <app-chat-side class="chat-side"></app-chat-side>
+  </div>
 </div>
